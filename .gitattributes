@@ -1,0 +1,10 @@
+# Keep LF for all text files
+* text=auto
+*.py text eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Ignore binary files
+*.mp4 binary
+*.mp3 binary
